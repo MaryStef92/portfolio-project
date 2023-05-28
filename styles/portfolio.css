@@ -1,0 +1,16 @@
+/*
+font-family: 'Playfair', serif;
+font-family: 'Poppins', sans-serif;*/
+
+h1 {
+  font-family: "Playfair", serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
