@@ -66,9 +66,30 @@ p {
   padding: 120px 60px;
 }
 
+.content-container {
+  padding: 120px 60px;
+}
+
+.content-container h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.content-container h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.content-container img {
+  border-radius: 12px;
+  height: 560px;
+}
+
+.content {
+  margin: 30px;
+}
+
 @media (max-width: 900px) {
   h1 {
-    font-size: 48px;
+    font-size: 46px;
   }
   h2 {
     font-size: 44px;
@@ -76,6 +97,12 @@ p {
   .hero {
     padding: 80px 20px;
   }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+
   .description {
     padding: 0;
     text-align: center;
