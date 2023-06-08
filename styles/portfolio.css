@@ -93,6 +93,7 @@ p {
 .content-container img {
   border-radius: 12px;
   height: 560px;
+  margin-left: 100px;
 }
 
 .content {
@@ -181,5 +182,9 @@ footer .social-links a:hover {
   .description {
     padding: 0;
     text-align: center;
+  }
+  .content-container img {
+    height: auto;
+    margin-left: 0;
   }
 }
